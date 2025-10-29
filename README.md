@@ -1,4 +1,7 @@
-# I named it escalation 7 because It was the first thing that came to mind
+# Escalation 7 (?)
+
+A PC strategy game with psychadelic themes. Avoid angering the Tyrant King- and don't get banished!
+
 
 ### Roles:
 Oliver - Coding
@@ -9,7 +12,9 @@ Madeline - Graphics
 
 El - Graphics/Game Design
 
+###Running the Game:
 
+[put something here idk]
 
 Sup guys
 
