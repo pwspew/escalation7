@@ -1,13 +1,13 @@
 # Escalation 7
 
-A PC strategy game with psychadelic themes. Avoid angering the Tyrant King- and don't get banished!
+A PC strategy game with psychadelic themes. Avoid angering the Tyrant King- and don't get banished! Navigate dialouge and find items to increase your chance of survival.
 Potential Roguelike elements, platformer-esque(?)
 
 
 ## Roles:
 Oliver - Coding (Infrastructure maker/physics constructor)
 
-Ethan - Coding/Game Design ( also Emotional Support)
+Ethan - Coding/Game Design (also Emotional Support)
 
 Madeline - Graphics
 
