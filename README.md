@@ -12,7 +12,7 @@ Madeline - Graphics
 
 El - Graphics/Game Design
 
-###Running the Game:
+### Running the Game:
 
 [put something here idk]
 
