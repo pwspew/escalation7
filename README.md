@@ -1,6 +1,7 @@
 # Escalation 7
 
 A PC strategy game with psychadelic themes. Avoid angering the Tyrant King- and don't get banished!
+Potential Roguelike elements, platformer-esque(?)
 
 
 ## Roles:
