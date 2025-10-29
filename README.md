@@ -12,8 +12,5 @@ Madeline - Graphics
 
 El - Graphics/Game Design
 
-## Running the Game:
-[placeholder]
-
-
+## Downloads:
 
