@@ -6,7 +6,7 @@ A PC strategy game with psychadelic themes. Avoid angering the Tyrant King- and 
 ## Roles:
 Oliver - Coding
 
-Ethan - Coding/Game Design (Emotional Support)
+Ethan - Coding/Game Design ( also Emotional Support)
 
 Madeline - Graphics
 
