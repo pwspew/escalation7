@@ -3,7 +3,7 @@
 A PC strategy game with psychadelic themes. Avoid angering the Tyrant King- and don't get banished!
 
 
-### Roles:
+## Roles:
 Oliver - Coding
 
 Ethan - Coding/Game Design
@@ -12,11 +12,11 @@ Madeline - Graphics
 
 El - Graphics/Game Design
 
-### Running the Game:
+## Running the Game:
 
 [put something here idk]
 
-### Contribution and Licenses
+## Contribution and Licenses:
 
 [idk again]
 
