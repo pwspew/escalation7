@@ -1,4 +1,4 @@
-# Escalation 7 (?)
+# Escalation 7
 
 A PC strategy game with psychadelic themes. Avoid angering the Tyrant King- and don't get banished!
 
@@ -13,10 +13,7 @@ Madeline - Graphics
 El - Graphics/Game Design
 
 ## Running the Game:
+[placeholder]
 
-[put something here idk]
 
-## Contribution and Licenses:
-
-[idk again]
 
