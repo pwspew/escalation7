@@ -16,5 +16,7 @@ El - Graphics/Game Design
 
 [put something here idk]
 
-Sup guys
+### Contribution and Licenses
+
+[idk again]
 
