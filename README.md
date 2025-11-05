@@ -19,7 +19,7 @@ El - Graphics/Game Design (timeline)
 
 ## How to run:
   
-### Other:
+##Timeline:
 
-[Timeline](https://lean-cushion-af6.notion.site/299f7871468680ee9a63ebfe99f70de4?v=299f7871468680908e63000c665aec35&source=copy_link)
+[Timeline](https://github.com/pwspew/escalation7/blob/main/images/elliescreenshot.png)
 
