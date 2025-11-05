@@ -14,7 +14,7 @@ Madeline - Graphics
 El - Graphics/Game Design
 
 ## Downloads:
-## diagram
+## Diagram
 ![classdiagram](https://github.com/pwspew/escalation7/blob/main/images/ethandia.png)
 
 ## How to run:
