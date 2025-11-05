@@ -19,7 +19,7 @@ El - Graphics/Game Design (timeline)
 
 ## GUI mockups:
 <img src="https://github.com/pwspew/escalation7/blob/main/images/GUImockup.png" alt="mock1" width= "600">
-<img src="https://github.com/pwspew/escalation7/blob/main/images/GUITextboxmockup.pn" alt="mock2" width= "600">
+<img src="https://github.com/pwspew/escalation7/blob/main/images/GUITextboxmockup.png" alt="mock2" width= "600">
 <img src="https://github.com/pwspew/escalation7/blob/main/images/Mainmenumockup.png" alt="mock3" width= "600">
 <img src="https://github.com/pwspew/escalation7/blob/main/images/gameovermockup.png" alt="mock4" width= "600">
 
