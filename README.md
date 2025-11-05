@@ -19,4 +19,7 @@ El - Graphics/Game Design
 
 ## How to run:
   
+### Other:
+
+[Timeline](https://lean-cushion-af6.notion.site/299f7871468680ee9a63ebfe99f70de4?v=299f7871468680908e63000c665aec35&source=copy_link)
 
