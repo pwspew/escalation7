@@ -19,9 +19,13 @@ El - Graphics/Game Design (timeline)
 
 ## GUI mockups:
 ![classdiagram](https://github.com/pwspew/escalation7/blob/main/images/GUImockup.png)
+&nbsp;
 ![classdiagram](https://github.com/pwspew/escalation7/blob/main/images/GUITextboxmockup.png)
+&nbsp;
 ![classdiagram](https://github.com/pwspew/escalation7/blob/main/images/Mainmenumockup.png)
+&nbsp;
 ![classdiagram](https://github.com/pwspew/escalation7/blob/main/images/gameovermockup.png)
+&nbsp;
 
 ## How to run:
   
