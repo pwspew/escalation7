@@ -11,7 +11,7 @@ Ethan - Coding/Game Design (diagram)
 
 Madeline - Graphics
 
-El - Graphics/Game Design
+El - Graphics/Game Design (timeline)
 
 ## Downloads:
 ## Diagram
