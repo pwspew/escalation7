@@ -9,7 +9,7 @@ Oliver - Coding (Infrastructure maker/physics constructor)
 
 Ethan - Coding/Game Design (diagram)
 
-Madeline - Graphics
+Madeline - Graphics (GUI Mockups)
 
 El - Graphics/Game Design (timeline)
 
