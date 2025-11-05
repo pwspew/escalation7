@@ -17,6 +17,12 @@ El - Graphics/Game Design (timeline)
 ## Diagram
 ![classdiagram](https://github.com/pwspew/escalation7/blob/main/images/ethandia.png)
 
+## GUI mockups:
+![classdiagram](https://github.com/pwspew/escalation7/blob/main/images/GUImockup.png)
+![classdiagram](https://github.com/pwspew/escalation7/blob/main/images/GUITextboxmockup.png)
+![classdiagram](https://github.com/pwspew/escalation7/blob/main/images/Mainmenumockup.png)
+![classdiagram](https://github.com/pwspew/escalation7/blob/main/images/gameovermockup.png)
+
 ## How to run:
   
 ## Timeline:
