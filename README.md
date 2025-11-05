@@ -7,7 +7,7 @@ Potential Roguelike elements, platformer-esque(?)
 ## Roles:
 Oliver - Coding (Infrastructure maker/physics constructor)
 
-Ethan - Coding/Game Design 
+Ethan - Coding/Game Design (diagram)
 
 Madeline - Graphics
 
