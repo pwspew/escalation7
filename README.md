@@ -19,7 +19,7 @@ El - Graphics/Game Design (timeline)
 
 ## How to run:
   
-##Timeline:
+## Timeline:
 
 ![Timeline](https://github.com/pwspew/escalation7/blob/main/images/elliescreenshot.png)
 
