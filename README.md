@@ -5,7 +5,7 @@ Potential Roguelike elements, platformer-esque(?)
 
 
 ## Roles:
-Oliver - Coding (Infrastructure maker/physics constructor/Class Diagram creator)
+Oliver - Coding (Infrastructure maker/physics constructor)
 
 Ethan - Coding/Game Design 
 
@@ -14,4 +14,9 @@ Madeline - Graphics
 El - Graphics/Game Design
 
 ## Downloads:
+
+
+
+## How to run:
+runs
 
