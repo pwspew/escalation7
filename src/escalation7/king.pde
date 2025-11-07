@@ -1,15 +1,16 @@
 class king {
   int x, y;
+  PImage king;
 
   King() {
-    x=10
-    y=10
+    x=10;
+    y=10;
+    king = loadImage("king.png");
 }
 
   void display() {
 //will be replaced with image once it is finished.
-    color(0,0,0);
-    ellipse(20,20,20,20);
+    image(king,x,y);
 }
   void move() {
 
