@@ -9,7 +9,7 @@ class king {
   void display() {
 //will be replaced with image once it is finished.
     color(0,0,0);
-    ellips(20,20,20,20);
+    ellipse(20,20,20,20);
 }
   void move() {
 
