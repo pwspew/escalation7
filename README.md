@@ -14,7 +14,7 @@ Madeline - Graphics (GUI Mockups)
 El - Graphics/Game Design (timeline)
 
 ## Downloads:
-## Diagram
+## Diagram (much more to be added)
 ![classdiagram](https://github.com/pwspew/escalation7/blob/main/images/ethandia.png)
 
 ## GUI mockups:
