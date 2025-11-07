@@ -1,8 +1,5 @@
-// Escalation 7
-//   Ellie J 
-//   Madeline H
-//   Ollie G
-//   Ethan S
+// Escalation 7 | November 5, 2025
+//   El J | Madeline H | Ollie G | Ethan S
 
 //it sounded cool
 float yvel, xvel, gravity;
