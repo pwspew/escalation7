@@ -9,7 +9,6 @@ class king {
 }
 
   void display() {
-//will be replaced with image once it is finished.
     image(king,x,y);
 }
   void move() {
