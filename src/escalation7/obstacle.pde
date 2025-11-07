@@ -1,0 +1,6 @@
+class Obstacle {
+void display() {
+
+}
+
+}
