@@ -2,30 +2,35 @@
 //   El J | Madeline H | Ollie G | Ethan S
 
 //it sounded cool
+mainguy Servant;
 float yvel, xvel, gravity;
 int x, y, speed, dmg, health, ground, jump, evasion;
 boolean death, onground;
 PVector vect1;
 void setup() {
-fullScreen(); 
-background(0, 0, 80);
-x = 50;
-y = 50;
-speed = 100; 
-dmg = 10;
-health = 100;
-jump = 10;
-evasion = 0;
-yvel = 0;
-xvel = 2;
-ground = 50;
+  fullScreen();
+  background(0, 0, 80);
+  Servant = new mainguy();
+  x = 50;
+  y = 50;
+  speed = 100;
+  dmg = 10;
+  health = 100;
+  jump = 10;
+  evasion = 0;
+  yvel = 0;
+  xvel = 2;
+  ground = 50;
 }
 
 
 void draw() {
+  background(0, 0, 80);
   noStroke();
   ellipse(x, y, 50, 50);
-  
+  Servant.display();
+  Servant.move();
+
   yvel += gravity;
   y += yvel;
 
@@ -37,5 +42,35 @@ void draw() {
   } else {
     onground = false;
   }
+}
 
+//Movement
+void keyPressed() {
+  if (key == 'a' || key == 'A') {
+      Servant.moveL = true;
+    }
+    if (key == 'd' || key == 'D') {
+      Servant.moveR = true;
+    }
+    if (key == 'w' || key == 'W') {
+      Servant.moveU = true;
+    }
+    if (key == 's' || key == 'S') {
+      Servant.moveD = true;
+    }
+}
+
+void keyReleased() {
+  if (key == 'a' || key == 'A') {
+      Servant.moveL = false;
+    }
+    if (key == 'd' || key == 'D') {
+      Servant.moveR = false;
+    }
+    if (key == 'w' || key == 'W') {
+      Servant.moveU = false;
+    }
+    if (key == 's' || key == 'S') {
+      Servant.moveD = false;
+    }
 }
