@@ -10,6 +10,7 @@ PVector vect1;
 void setup() {
   fullScreen();
   background(0, 0, 80);
+
   Servant = new mainguy();
   x = 50;
   y = 50;
@@ -27,10 +28,13 @@ void setup() {
 void draw() {
   background(0, 0, 80);
   noStroke();
-  ellipse(x, y, 50, 50);
   Servant.display();
   Servant.move();
-
+  textSize(40);
+  text("press esc to leave", 500, 500);
+   text("Welcome to  Escalation7 ", 400, 400);
+   textSize(20);
+   text("I will change the name later", 400, 420);
   yvel += gravity;
   y += yvel;
 
