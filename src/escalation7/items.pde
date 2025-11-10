@@ -1,3 +1,4 @@
+//ollie G da goat forever and ever made this class
 class items {
 String name, type;
 int value;

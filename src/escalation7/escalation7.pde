@@ -1,16 +1,18 @@
 // Escalation 7 | November 5, 2025
 //   El J | Madeline H | Ollie G | Ethan S
-
+import gifAnimation.*;
 //it sounded cool
 mainguy Servant;
 float yvel, xvel, gravity;
+Gif kingtail;
 int x, y, speed, dmg, health, ground, jump, evasion;
 boolean death, onground;
 PVector vect1;
 void setup() {
   fullScreen();
   background(0, 0, 80);
-
+  kingtail = new Gif(this, "kingtailwave.gif");
+  kingtail.loop();
   Servant = new mainguy();
   x = 50;
   y = 50;
@@ -30,6 +32,7 @@ void draw() {
   noStroke();
   Servant.display();
   Servant.move();
+  image(kingtail, 700, 550);
   textSize(40);
   text("press esc to leave", 500, 500);
    text("Welcome to  Escalation7 ", 400, 400);

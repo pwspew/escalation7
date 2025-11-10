@@ -1,3 +1,4 @@
+// Madeline H fabricated this class
 class mainguy {
   PVector position, volocity;
   int health, x, y, speed;

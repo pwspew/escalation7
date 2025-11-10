@@ -1,7 +1,8 @@
+//Ellie Jacobsen (she also made the cool king art)
 class king {
   int x, y;
   PImage king;
-
+  
   void King() {
     x=10;
     y=10;
