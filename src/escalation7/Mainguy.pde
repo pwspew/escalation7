@@ -1,12 +1,12 @@
 // Madeline H fabricated this class
-class mainguy {
+class Mainguy {
   PVector position, volocity;
   int health, x, y, speed;
   boolean moveL, moveR, moveU, moveD;
   //Pimage
  
   //Constructor
-  mainguy() {
+  Mainguy() {
     x = width/2;
     y = height/2;
     health = 1;
