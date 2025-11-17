@@ -9,7 +9,10 @@ class Button {
     this.h = h;
   }
 
+void display() {
 
+
+}
 
 
   boolean clicked() {
