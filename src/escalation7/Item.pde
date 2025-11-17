@@ -1,5 +1,5 @@
 //ollie G da goat forever and ever made this class
-class items {
+class Item {
 String name, type;
 int value;
 color dpcolor;
