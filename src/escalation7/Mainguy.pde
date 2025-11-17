@@ -3,7 +3,7 @@ class Mainguy {
   PVector position, volocity;
   int health, x, y, speed;
   boolean moveL, moveR, moveU, moveD;
-  //Pimage
+  PImage ServantL;
  
   //Constructor
   Mainguy() {
@@ -15,11 +15,11 @@ class Mainguy {
     moveR = false;
     moveU = false;
     moveD = false;
-    //image
+    ServantL = loadImage ("ServantL");
   }
   
   void display() {
-    //Pimage goes here once thats made
+    //image(ServantL, x, y);
     rect(x, y, 20, 20);
   }
   
