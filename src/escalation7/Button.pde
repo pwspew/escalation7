@@ -9,10 +9,17 @@ class Button {
     this.h = h;
   }
 
-void display() {
+  void display() {
+    fill(0);
+    rectMode(CENTER);
+    noStroke();
+    rect(x, y, w, h);
 
-
-}
+    fill(255);
+    textAlign(CENTER);
+    textSize(16);
+    text(label, x+ w/2, y+h/2);
+  }
 
 
   boolean clicked() {
