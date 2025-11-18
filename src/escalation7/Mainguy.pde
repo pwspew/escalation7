@@ -1,7 +1,7 @@
 // Madeline H fabricated this class
 class Mainguy {
   PVector position, volocity;
-  int health, x, y, speed;
+  int health, x, y, w, h, basespeed, size, currentspeed;
   boolean moveL, moveR, moveU, moveD;
   PImage ServantL;
  
@@ -9,18 +9,22 @@ class Mainguy {
   Mainguy() {
     x = width/2;
     y = height/2;
-    health = 1;
-    speed = 5;
+    w = 10;
+    h = 10;
+    size = w+h/2;
+    health = 1;  
+    basespeed = 100;
     moveL = false;
     moveR = false;
     moveU = false;
     moveD = false;
     ServantL = loadImage ("ServantL");
+    currentspeed = basespeed / size;
+    
   }
   
   void display() {
-    //image(ServantL, x, y);
-    rect(x, y, 20, 20);
+  rect(x, y, 20, 20);
   }
   
   void jump() {
@@ -31,16 +35,16 @@ class Mainguy {
   //Vid: Getting a Player to move Left and Right in Processing (v=jgr31WIYWdk)
   void move() {
     if (moveL == true) {
-      x -= speed;
+      x -= currentspeed;
     }
     if (moveR == true) {
-      x += speed;
+      x += currentspeed;
     }
     if (moveU == true) {
-      y -= speed;
+      y -= currentspeed;
     }
     if (moveD == true) {
-      y += speed;
+      y += currentspeed;
     }
   }
   
