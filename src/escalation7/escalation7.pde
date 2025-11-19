@@ -9,7 +9,7 @@ int x, y, speed, dmg, health, ground, jump, evasion;
 boolean death, onground, startscreen;
 PVector vect1;
 char screen;
-Button settings, menu;
+Button settings, menu, back;
 void setup() {
   fullScreen();
   background(0, 0, 80);
@@ -32,6 +32,7 @@ void setup() {
   screen = 'f';
   settings = new Button("The 'ttings", width/2, height/2+200, 300, 60);
   menu =new Button("Menu", width/2, height/2+420, 300, 60);
+  back = new Button("Go back <--", 200, 50, 150, 40);
 }
 
 
@@ -43,15 +44,31 @@ void draw() {
     menu.display();
     break;
   case 'm':
+  menuinGame();
+  back.display();
     break;
   case 's':
-  settingsScreen();
+    settingsScreen();
+    back.display();
     break;
   case 'g':
     theGame();
+    back.display();
     break;
   }
 }
+
+void mousePressed() {
+if (settings.clicked())  {
+  screen = 's';
+}  else if (menu.clicked()) {
+screen = 'm';
+}  else if (back.clicked()) {
+screen = 'f';
+}
+  }
+
+
 //Movement
 void keyPressed() {
   if (key == 'a' || key == 'A') {
@@ -68,7 +85,7 @@ void keyPressed() {
   }
 
   println(keyCode);
-  if (keyCode == 32) {
+  if (keyCode == ' ') {
     screen = 'g';
   }
 }
@@ -107,7 +124,14 @@ void settingsScreen() {
   text("whats up my name's settings", width/2, 300);
 }
 
+void menuinGame() {
+  background(100, 100, 100);
+  textAlign(CENTER, CENTER);
+  textSize(80);
+  text("yo yo yo whats up my name menu", width/2, height/2);
 
+
+}
 void theGame() {
   background(0, 0, 80);
   fill(255);
