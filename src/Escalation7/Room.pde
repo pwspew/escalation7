@@ -1,12 +1,13 @@
+//Ollie made this class it's called room but it should be rooms but kapptie doesnt like plural in the class names
 class Room {
-  int x, y, w, h; // tile coords
-  // return index of room that contains pixel point (px,py), or -1 if none
+  int x, y, w, h; // the tiles hahaha
   Room(int x_, int y_, int w_, int h_) {
     x = x_;
     y = y_;
     w = w_;
     h = h_;
   }
+// center room for tracking purposes an d camera clamping.
   PVector center() {
     return new PVector((x + w/2) * tileSize, (y + h/2) * tileSize);
   }
@@ -15,7 +16,7 @@ class Room {
     int ry = int(random(y+1, y + h - 1));
     return new PVector(rx * tileSize + tileSize/2, ry * tileSize + tileSize/2);
   }
-  // mark tiles as floor
+
   void carve() {
     for (int i = x; i < x + w; i++) {
       for (int j = y; j < y + h; j++) {
@@ -25,7 +26,6 @@ class Room {
   }
 }
 
-// create BSP and carve rooms/corridors
 void generateDungeon() {
   // reset walkable => walls everywhere
   for (int i = 0; i < cols; i++) for (int j = 0; j < rows; j++) walkable[i][j] = false;
@@ -36,8 +36,8 @@ void generateDungeon() {
   ArrayList<Leaf> list = new ArrayList<Leaf>();
   list.add(root);
 
-  // split leaves
-  int minLeaf = max(9, int(min(cols, rows) * 0.30)); // tweakable
+  // split      these numbers on the next line below are changeable and they chage the amount of rooms and stuff like that
+  int minLeaf = max(9, int(min(cols, rows) * 0.30)); 
   boolean didSplit = true;
   int attempts = 0;
   while (didSplit && attempts < 200) {
@@ -57,13 +57,13 @@ void generateDungeon() {
     attempts++;
   }
 
-  // create rooms in leaves
+  // create rooms  V this can be changed
   root.createRooms(4);
 
   // carve rooms
   for (Room r : rooms) r.carve();
 
-  // connect rooms in sequence by center (simple MST-ish)
+  // connect rooms in sequence via center
   if (rooms.size() > 1) {
     // sort rooms by x to have nicer connections
     // sort rooms by x to have nicer connections (simple selection sort — safe in Processing)
@@ -174,3 +174,4 @@ void dungeonPreview() {
   drawDungeon();
   pop();
 }
+
