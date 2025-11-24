@@ -1,3 +1,4 @@
+// Ollie made this class (Im so cool and awesome) (I am carrying this team on my back)
 class Item {
   float x, y;
   float size = 14;
@@ -17,3 +18,4 @@ class Item {
     rectMode(CORNER);
   }
 }
+
