@@ -1,3 +1,6 @@
+
+// ellie jacobsen made this class
+// ollie polished it
 class King {
   float x, y;
   float size = 48;
@@ -55,7 +58,7 @@ class King {
     x = constrain(x, size/2, width - size/2);
     y = constrain(y, size/2, height - size/2);
   }
-
+//ollie made the knockback
   void knockbackFrom(float fromX, float fromY, float strength) {
     float ang = atan2(y - fromY, x - fromX);
     float nx = x + cos(ang) * strength * 6;
@@ -76,4 +79,5 @@ class King {
     text("evil lion of doom", x, y - size/2 - 10);
   }
 }
+
 
