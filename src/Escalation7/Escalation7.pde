@@ -1,4 +1,6 @@
-
+// Ollie G , Ellie Jacobsen , Ethan Shafran, Madeline Hendrickson
+// power of friendship!!!! 
+// the date right now is Nov 24
 float camX = 0, camY = 0;        
 int currentRoomIndex = -1;      //room finder
 boolean roomClampMode = true;   //false makes it not follow no more
@@ -285,3 +287,4 @@ if (currentRoomIndex == -1 && rooms.size() > 0) currentRoomIndex = 0;
 void resetGame() {
   startGame();
 }
+
