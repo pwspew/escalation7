@@ -1,4 +1,5 @@
-
+// Ethan made this class
+// ollie made the pseudo-timer
 class Enemy {
   float x, y;
   float size = 10;
@@ -52,3 +53,4 @@ class Enemy {
     ellipse(x, y, size, size);
   }
 }
+
