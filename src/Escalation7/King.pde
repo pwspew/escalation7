@@ -1,5 +1,3 @@
-// ----------------------
-// King class (uses tile collision)
 class King {
   float x, y;
   float size = 48;
@@ -28,7 +26,6 @@ class King {
       x = nx;
       y = ny;
     } else {
-      // try small angle variations
       boolean moved = false;
       for (float a = -PI/2; a <= PI/2; a += PI/6) {
         float alt = angle + a;
@@ -42,7 +39,6 @@ class King {
         }
       }
       if (!moved) {
-        // try staying put (or small random walk)
         float r = random(1);
         if (r < 0.3) {
           float alt = angle + random(-PI, PI);
@@ -80,3 +76,4 @@ class King {
     text("evil lion of doom", x, y - size/2 - 10);
   }
 }
+
