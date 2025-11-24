@@ -1,3 +1,6 @@
+//Madeline H made this class.
+// she made the HUD, movement, and collision and Ollie implemented the room index
+
 class Player {
   float x, y;
   int size = 10;
@@ -106,3 +109,4 @@ class Player {
     }
   }
 }
+
