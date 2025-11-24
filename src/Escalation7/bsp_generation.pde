@@ -1,3 +1,5 @@
+// Ollie made this class thank you BSP and the very old game Rogue. I had to study for this to work man.
+// https://en.wikipedia.org/wiki/Binary_space_partitioning
 class Leaf {
   int x, y, w, h;
   Leaf left, right;
@@ -53,3 +55,4 @@ class Leaf {
     }
   }
 }
+
