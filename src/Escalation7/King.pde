@@ -1,6 +1,6 @@
 
 // ellie jacobsen made this class
-// ollie polished it
+// ollie and ethan polished it
 class King {
   float x, y;
   float size = 48;
@@ -79,5 +79,6 @@ class King {
     text("evil lion of doom", x, y - size/2 - 10);
   }
 }
+
 
 
