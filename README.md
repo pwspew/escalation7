@@ -1,4 +1,4 @@
-# Escalation 7
+# Castle Corridors
 
 A PC strategy game with psychadelic themes. Avoid angering the Tyrant King- and don't get banished! Navigate dialouge and find items to increase your chance of survival.
 Potential Roguelike elements, platformer-esque(?)
